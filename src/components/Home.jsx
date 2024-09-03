@@ -86,7 +86,7 @@ const Home = () => {
         style={{ height: "100vh" }}
       >
         {products.map((product) => (
-          <div key={product.id} className=" w-1/2 md:w-1/4 p-4">
+          <div key={product.id} className=" w-4/5 md:w-1/4 p-4">
             <div className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col items-center">
               <img
                 className="w-1/2 object-cover"
